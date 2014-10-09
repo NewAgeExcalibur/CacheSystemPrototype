@@ -1,0 +1,10 @@
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\bin\Debug\CacheSystemPrototype.Console.exe.config
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\bin\Debug\log4net.xml
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\bin\Debug\CacheSystemPrototype.Console.exe
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\bin\Debug\CacheSystemPrototype.Console.pdb
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\bin\Debug\CacheSystemPrototype.dll
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\bin\Debug\log4net.dll
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\bin\Debug\CacheSystemPrototype.pdb
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\obj\Debug\CacheSystemPrototype.Console.csprojResolveAssemblyReference.cache
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\obj\Debug\CacheSystemPrototype.Console.exe
+C:\Amir Apps\CacheSystemPrototype\CacheSystemPrototype.Console\obj\Debug\CacheSystemPrototype.Console.pdb

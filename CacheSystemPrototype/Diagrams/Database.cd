@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="To Make Startup time of application a bit faster, we could queue all requests((ManualResetEvent.Wait()) inside app and as soon as data is initialised(Async) completly (ManualResetEvent.Set()) then start processing the request&#xD;&#xA;&#xD;&#xA;It makes the architecture more complex , and also this is not the responsibilities of DataAccess(we could move this functionality to our service layer) , so Its been used.&#xD;&#xA;&#xD;&#xA;NOTE: This class is not used">
+    <Position X="0.5" Y="0.5" Height="2.052" Width="3.273" />
+  </Comment>
+  <Class Name="CacheSystemPrototype.Infrastructure.Database.DatabaseStore" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAAAAAAAAAACAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Database\DatabaseStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CacheSystemPrototype.Infrastructure.Database.DatabaseStoreInterceptore" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAIAAAAACAAAAEAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Database\DatabaseStoreInterceptore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.19" Collapsed="true" />
+  </Class>
+  <Interface Name="CacheSystemPrototype.Infrastructure.Database.IDatabaseStore">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Database\IDatabaseStore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

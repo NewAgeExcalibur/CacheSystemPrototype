@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Cache Configuration ">
+    <Position X="0.835" Y="0.667" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Helps Caching system be smarter and faster">
+    <Position X="12.939" Y="0.5" Height="0.729" Width="1.742" />
+  </Comment>
+  <Comment CommentText="Different Type and Impementation of Cache Storage">
+    <Position X="5.25" Y="0.75" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="CacheSystemPrototype.Infrastructure.Cache.CacheConfiguration" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAIAAAgAAAAAAAAAQgIAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Infrastructure\Cache\CacheConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CacheSystemPrototype.Infrastructure.Cache.CacheStoreAccelerator" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAAAAAAAAAACAAAAAAEACBAAAACAAAAAAg=</HashCode>
+      <FileName>Infrastructure\Cache\CacheStoreAccelerator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="values" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CacheSystemPrototype.Infrastructure.Cache.DistributedCacheStore" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IIEAAAAAIAAAAAAAAAAACAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Cache\DistributedCacheStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CacheSystemPrototype.Infrastructure.Cache.LocalCacheStore">
+    <Position X="3.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IIEAAAAAIAAAAAAAAAAACAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Cache\LocalCacheStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CacheSystemPrototype.Infrastructure.Cache.LocalCacheStoreAccelerator">
+    <Position X="3.25" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Cache\LocalCacheStoreAccelerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CacheSystemPrototype.Infrastructure.Cache.ObjectAccessRate">
+    <Position X="13.75" Y="3.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAAAAAAAIAAAABEAQAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Cache\ObjectAccessRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CacheSystemPrototype.Infrastructure.Cache.SmartCacheStore" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAAAAAAAAAADAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Infrastructure\Cache\SmartCacheStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CacheSystemPrototype.Infrastructure.Cache.ICacheConfiguration">
+    <Position X="0.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAgAAAAAAAAAAgIAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Infrastructure\Cache\ICacheConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CacheSystemPrototype.Infrastructure.Cache.ICacheStore">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Cache\ICacheStore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CacheSystemPrototype.Infrastructure.Cache.ICacheStoreAccelerator">
+    <Position X="12.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAAAg=</HashCode>
+      <FileName>Infrastructure\Cache\ICacheStoreAccelerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
