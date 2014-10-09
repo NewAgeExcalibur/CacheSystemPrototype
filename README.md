@@ -11,4 +11,9 @@ To be able to remove object that are not high demand in the last period of time.
 
 Assumption: Data Never Changes.
 
+--------------------------------
+Using TDD to design the whole application.
+
+
+
 
